@@ -3,7 +3,7 @@
 ## Install
 
 ```bash
-npm install @ibrahimalanshor/express-app
+npm install @ibrahimanshor/express-app
 ```
 
 ## Usage
