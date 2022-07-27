@@ -9,12 +9,13 @@ npm install @ibrahimalanshor/express-app
 ## Usage
 
 ```js
-const ExpressApp = require('@ibrahimalanshor/express-app')
+const ExpressApp = require('@ibrahimalanshor/express-app');
 
 const app = new ExpressApp({
   port: 5000,
-  logging: process.env.NODE_ENV === 'development'
-})
+  loggingRequest: process.env.NODE_ENV === 'development',
+  loggingError: process.env.NODE_ENV === 'development',
+});
 
-app.run()
+app.run();
 ```

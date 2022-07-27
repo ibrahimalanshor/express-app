@@ -1,29 +1,41 @@
 {
-  "name": "express-app",
-  "version": "0.0.1",
-  "description": "",
+  "name": "@ibrahimanshor/express-app",
+  "version": "0.0.2",
+  "description": "Express App",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "prepare": "husky install"
   },
   "keywords": [],
-  "author": "",
+  "author": "Ibrahim Al Anshor",
   "license": "ISC",
   "dependencies": {
     "cors": "^2.8.5",
     "express": "^4.18.1",
-    "helmet": "^5.1.1"
+    "helmet": "^5.1.1",
+    "morgan": "^1.10.0"
   },
   "devDependencies": {
     "eslint": "^8.20.0",
     "husky": "^8.0.1",
     "lint-staged": "^13.0.3",
-    "morgan": "^1.10.0",
     "prettier": "2.7.1"
   },
   "lint-staged": {
     "*.js": "eslint --cache --fix",
     "*.{js,css,md}": "prettier --write"
-  }
+  },
+  "directories": {
+    "lib": "lib",
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ibrahimalanshor/express-app.git"
+  },
+  "bugs": {
+    "url": "https://github.com/ibrahimalanshor/express-app/issues"
+  },
+  "homepage": "https://github.com/ibrahimalanshor/express-app#readme"
 }
